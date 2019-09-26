@@ -1,0 +1,99 @@
+.box{
+    margin: 25px 0;
+    padding: 30px;
+    box-shadow: 2px 1px 30px 2px rgba(87, 215, 128, 0.2), 2px 6px 8px 0 rgba(87, 215, 128, 0.19); 
+}
+.logo{
+    font-family: 'Yellowtail', cursive;
+    font-size: 38px;
+}
+.logo-m{
+    color: #09BCFF;
+    font-size: 60px;
+    text-align: center;
+    padding-bottom: 40px;
+}
+
+.signup_extension{
+    color: #fff;
+    text-align: center;
+    background-color: #09BCFF;
+    padding: 10px;
+}
+
+
+body{
+    font-family: sans-serif;
+}
+.box h4{
+    font-size: 16px;
+    text-align: left;
+    margin-bottom: 45px;
+    text-shadow: 1px 1px 1px #DCDCDC;    
+}
+
+.box .input-box{
+    position: relative;
+}
+
+.box .input-box input,textarea,select{
+    width: 100%;
+    padding: 10px,0;    
+    font-size: 16px;
+    margin-bottom: 10px;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid #09BCFF;
+}
+
+.box .input-box label{
+    position: absolute;
+    top: 0;
+    left: 0;
+    color: #909090;
+    padding: 10px,0;
+    font-size: 16px;
+    pointer-events: none;
+    transition: .5s;
+}
+
+.box .input-box input:focus, textarea:focus{
+    border-bottom: 2px solid #09BCFF;
+}
+
+.box .input-box input:focus ~ label, .box .input-box textarea:focus ~ label,
+.box .input-box input:valid ~ label, .box .input-box textarea:valid ~ label{
+    top: -18px;
+    left: 0;
+    color: #09BCFF;
+    font-size: 13px;
+}
+
+#forgot-label{
+    color: #57D780;
+    font-size: 16px;
+}
+
+.next-button{
+    margin-left: 80%;
+}
+
+
+ .error_message{
+    font-size: 13px;
+    color: red;
+}
+
+.cl_image{
+    font-size: 12px;
+    color: #57D780;
+}
+
+.link-sm{
+    font-size: 13px;
+    float: right;
+    padding-top: 4px;
+}
+
+
+

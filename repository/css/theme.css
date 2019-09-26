@@ -1,0 +1,45 @@
+.modal-backdrop {
+                                    /* bug fix - no overlay */    
+                                    display: none;    
+                                }
+                                /* theme window*/
+                                .theme-toolbar input[type="radio"] {
+                                  display: none;
+                                }
+                                .theme-toolbar label {
+                                  display: inline-block;
+                                  cursor: pointer;
+                                }
+                                .theme-toolbar label{
+                                    width: 100%;
+                                }
+                                .theme-toolbar .col-sm-4{
+                                    padding: 0;
+                                }
+                                .fa-check-circle{
+                                    color: #00B8E1;
+                                    left: 20px;
+                                    position: absolute;
+                                    top: 10px;
+                                    bottom: 0;
+                                    left: 10px;
+                                    right: 0;
+                                    font-size: 30px;
+                                    display: none;
+                                }
+                                .col-sm-4:hover label {
+                                  background-color: #00B8E1;
+                                }
+                                .theme-toolbar input[type="radio"]:checked+label {
+                                  background-color: #00B8E1;
+                                }
+                                .theme-toolbar input[type="radio"]:checked+ label .fa-check-circle{
+                                    display: block;
+                                
+                                }
+                                .theme-toolbar .col-sm-4:hover .fa-check-circle{
+                                    display: block;
+                                }
+                                .theme-toolbar .col-sm-4 img{
+                                    padding: 2px 2px;
+                                }
